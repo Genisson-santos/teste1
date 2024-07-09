@@ -1,0 +1,299 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+	box-sizing: border-box;
+	font-family: 'YouTube Sans', sans-serif;
+}
+
+#container {
+	width: 100%;
+	max-width: 425px;
+	height: auto;
+	margin: 0 auto;
+}
+
+.esconder {
+	display: none;
+}
+
+/* Editar o padding dos elementos */
+
+.texto_principal, .titulo_comentarios, .canal_yt, .botoes_yt, .comentarios_video {
+	padding-left: 5px !important;
+	padding-right: 5px !important;
+}
+
+.header {
+	width: 100%;
+	box-shadow: 0 8px 8px rgba(0, 0, 0, 0.3);
+	background-color: black;
+}
+
+.logo_yt {
+	width: 120px;
+	padding: 13px 0 10px 10px;
+}
+
+.img_user {
+	width: 35px;
+	height: 40px;
+	float: right;
+	margin: 7px 15px 15px 0;
+	border: 1px solid black;
+	border-radius: 50%;
+	box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2), 0 4px 4px 0 rgba(0, 0, 0, 0.20);
+}
+
+.video_principal {
+	width: 100%;
+	margin: 35px 0 20px;
+	text-align: center;
+}
+
+.texto_principal {
+	padding: 0 5px;
+}
+
+.titulo_principal {
+	font-size: 20px;
+	font-weight: 500;
+	;
+}
+
+.titulo_principal span {
+	color: #1a94ff;
+	cursor: pointer;
+}
+
+.texto_principal p {
+	color: #60666c;
+	font-size: 14px;
+	margin-top: 5px;
+	font-weight: 100;
+}
+
+.gif_live {
+	width: 80px;
+	vertical-align: -5px;
+	padding-right: 5px;
+}
+
+.canal_yt img.img_user {
+	border: none;
+	box-shadow: none;
+	float: left;
+	display: inline-block;
+	margin: 15px 0 0 5px;
+}
+
+.nome_canal > * {
+	display: inline-block;
+}
+
+.titulo_canal {
+	padding: 20px 0 0 10px;
+	color: #f2f2f2;
+	display: inline-block;
+	color: black;
+}
+
+.quantidade_inscritos {
+	padding-left: 10px;
+	color: #858d93;
+	font-size: 12px;
+}
+
+#btn_sub {
+	background-color: red;
+	;
+	float: right;
+	margin: 15px 20px 0 0;
+	padding: 8px 15px 10px;
+	border-radius: 50px;
+	font-size: 14px;
+	cursor: pointer;
+	color: white;
+}
+
+#btn_sub:hover {
+	background-color: #262626;
+	transition: .2s linear;
+	color: white;
+}
+
+.comentarios_video {
+	width: 100%;
+	height: auto;
+	margin-top: 30px;
+	border-top: 1px solid #a6a6a6;
+}
+
+.comentario .img_user {
+	border: none;
+	box-shadow: none;
+	float: left;
+	display: inline-block;
+	margin: 15px 0 0 5px;
+	width: 40px;
+}
+
+.botoes_yt {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 25px;
+}
+
+.titulo_comentarios {
+	font-weight: 500;
+	padding: 10px 0 0 5px;
+}
+
+.titulo_comentarios_fim {
+	font-weight: 400;
+	padding: 10px 0 0 5px;
+	;
+}
+
+.like_yt_section {
+	padding: 5px;
+}
+
+.compartilhar:hover, .salvar:hover, .like_yt_section:hover, .deslike_yt:hover {
+	background-color: #b3b3b3;
+	transition: .2s linear;
+	cursor: pointer;
+}
+
+.like_yt_section:hover span {
+	color: black;
+}
+
+.like_deslike > * {
+	display: inline-block;
+}
+
+.like_yt, .deslike_yt, .salvar_yt {
+	width: 10px;
+	vertical-align: -1px;
+	cursor: pointer;
+}
+.comment_yt {
+	width: 12px;
+	vertical-align: -1px;
+	cursor: pointer;
+	margin-left: 10px;
+}
+
+.deslike_yt {
+	margin: 5px 10px 0 5px;
+}
+
+.quantidade_likes {
+	color: #404040;
+	border-right: 1px solid gray;
+	padding-right: 10px;
+}
+
+.like_deslike, .compartilhar, .salvar {
+	width: 120px;
+	background-color: #e6e6e6;
+	border-radius: 20px;
+	text-align: center;
+	padding: 5px;
+	font-size: 15px;
+}
+
+.compartilhar_yt {
+	width: 12px;
+	vertical-align: -1px;
+	cursor: pointer;
+}
+
+.comentario_inicial h3 {
+	font-size: 15px;
+	font-weight: 300;
+	;
+	padding: 15px 5px 0 55px;
+}
+
+.comentario_inicial h3 span {
+	float: right;
+	font-size: 13px;
+	color: #333;
+}
+
+.resposta {
+	margin-top: 5px;
+}
+
+.resposta .img_user {
+	margin: 15px 0 0 50px;
+}
+
+.resposta h3 {
+	padding: 15px 5px 0 100px;
+}
+
+.resposta p {
+	padding-left: 100px !important;
+}
+
+.comentario_inicial p {
+	padding-left: 55px;
+	font-weight: 300;
+	color: #333;
+	font-size: 14px;
+}
+
+.icones_comentario {
+	margin-left: 57px;
+	font-size: 12px;
+	color: #404040;
+}
+
+.icones_comentario span {
+	margin: 0 15px -50px 2px;
+	;
+}
+
+.resposta .icones_comentario {
+	margin-left: 102px;
+	font-size: 12px;
+	color: #404040;
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(1);
+	}
+	100% {
+		transform: scale(1.10);
+	}
+}
+
+#btn_cta {
+	max-width: 80%;
+	background-color: #00cc00;
+	border-radius: 15px;
+	padding: 10px 30px;
+	margin-top: 20px;
+	text-transform: uppercase;
+	animation: pulse .8s linear infinite alternate;
+}
+
+#btn_cta:hover {
+	cursor: pointer;
+	background-color: #00b300;
+	transition: .2s linear;
+}
+
+#btn_cta a {
+	font-family: 'Oswald', sans-serif;
+	font-weight: bolder;
+	font-size: 18px;
+	text-decoration: none;
+	color: white;
+}
